@@ -1,2 +1,2 @@
 # API_perritos_prueba.github.io
-Imagnes de perritos aleatorios
+Imagenes de perritos aleatorios: https://jafetvazquez.github.io/API_perritos_prueba.github.io/
