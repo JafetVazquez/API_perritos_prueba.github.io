@@ -31,14 +31,25 @@
         top:1px;
     }
 
+    body{
+        background: #0F2027;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
     </style>
 </head>
 <body>
-    <h1>Uso de API (Ejemplo)</h1>
+    <center>
+    <h1 style="color: white;">Uso de API (Ejemplo)</h1>
 
-    <img alt="Ejemplo de API">
+    <img height="500px" alt="Ejemplo de API">
 
+    <br>
+    <br>
+    
     <button class="myButton" onclick="recargar()">Recargar</button>
+    </center>
 
     <script src="./main.js"></script>
 </body>
